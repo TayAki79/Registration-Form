@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form by freeCodeCamp</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>
+     Registration Form
+    </h1>
+    <p class="task">
+      Please fill out this form with the required information
+    </p>
+    
+    <form action="https://register-demo.freecodecamp.org">
+    
+      <section class="login-info">   
+        <p>
+          <label for="first-name">
+            Enter Your First Name:
+          </label>
+        </p>
+        <input type="text" name="first-name" id="first-name">
+        
+        
+        <p>
+          <label for="last-name">
+            Enter Your Last Name:
+          </label>
+        </p>
+        <input type="text" name="last-name" id="last-name">
+
+        <p>
+          <label for="email"></label>
+            Enter Your Email:
+          </label>
+        </p>
+         <input type="email" name="email" id="email">
+        
+        
+        <p>
+          <label for="password">
+            Create a New Password:
+          </label>
+        </p>
+         <input type="password" name="password" id="password">
+      </section>
+
+        <hr class="hr1">
+
+      <section class="account-info">  
+        
+        <label for="personal">
+          <input type="radio" name="personal-business" id="personal" value="personal">
+          Personal Account
+        </label>
+
+        <label for="business">
+          <input type="radio" name="personal-business" id="business" value="business">
+          Business Account
+        </label>
+        
+        <label for="accept">
+          <input type="checkbox" name="accept-terms" id="accept" value="accept">
+          I accept the <span class="terms-and-conditions">terms and conditions</span>
+        </label>
+
+      </section>
+
+        <hr class="hr2">
+      
+      <section class="add-info">
+        <p>
+          Upload a profile picture:
+        </p>
+        <label for="file"><input id="file" type="file" name="file" ></label>
+        
+        <p>
+          Input your age (years):
+        </p>
+        <label for="age"><input id="age" type="number" name="age" min="15" max="99"></label>
+        
+        <p>
+          How did you hear about us?
+        </p>
+        <label for="source"></label>
+        <select id="source">
+          <option value="select one">(select one)</option>
+          <option value="news">freeCodeCamp News</option>
+          <option value="youtube">freeCodeCamp YouTube Channel</option>
+          <option value="forum">freeCodeCamp Forum</option>
+          <option value="other">Other</option>
+        </select>
+        
+        <p>
+          Provide a bio:
+        </p>
+          <textarea placeholder="I like coding on the beach..." rows="3" cols="60">
+          </textarea>
+        
+        <button type="submit">
+          Submit
+        </button>
+      </section>
+    </form>
+  </body>
+</html>

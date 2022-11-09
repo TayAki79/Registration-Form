@@ -1,0 +1,104 @@
+ /* * {
+  border: 1px solid white;
+} */
+
+body {
+  text-align: center;
+  background-color: rgb(30, 30, 59);
+  color: white;
+  font-family: Tahoma;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.task {
+  margin-bottom: 60px;
+}
+
+p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.login-info,
+.account-info,
+.add-info {
+  text-align: left;
+  width: 500px;
+  margin: auto;
+}
+
+.login-info input {
+  width: 500px;
+  border: none;
+  padding: 0;
+  background-color: black;
+  height: 30px;
+}
+
+.add-info input {
+  width: 500px;
+  border: none;
+  padding: 0;
+  background-color: black;
+  height: 30px;
+}
+
+.add-info select {
+  width: 500px;
+  border: none;
+  padding: 0;
+  background-color: white;
+  height: 30px;
+}
+
+.add-info textarea {
+  background-color: black;
+}
+
+.hr1 {
+  width: 500px;
+  height: 3px;
+  background-color: rgb(49, 54, 71);
+  border: none;
+  margin: 50px auto;
+}
+
+.hr2 {
+  width: 500px;
+  height: 3px;
+  background-color: rgb(49, 54, 71);
+  border: none;
+  margin-top: 65px;
+  margin-bottom: 40px;
+}
+
+.account-info {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+#personal, #business {
+  margin-bottom: 20px;
+}
+
+textarea, button {
+  display: block;
+}
+
+textarea {
+  margin-bottom: 70px;
+}
+
+button {
+  background-color: rgb(59, 59, 79);
+  color: white;
+  font-size: 18px;
+  width: 350px;
+  height: 40px;
+  border: 1px solid white;
+  margin: auto;
+}
