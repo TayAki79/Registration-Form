@@ -23,7 +23,7 @@
             Enter Your First Name:
           </label>
         </p>
-        <input type="text" name="first-name" id="first-name">
+        <input type="text" name="first-name" id="first-name" required>
         
         
         <p>
@@ -31,14 +31,14 @@
             Enter Your Last Name:
           </label>
         </p>
-        <input type="text" name="last-name" id="last-name">
+        <input type="text" name="last-name" id="last-name" required>
 
         <p>
           <label for="email"></label>
             Enter Your Email:
           </label>
         </p>
-         <input type="email" name="email" id="email">
+         <input type="email" name="email" id="email" required>
         
         
         <p>
@@ -46,7 +46,7 @@
             Create a New Password:
           </label>
         </p>
-         <input type="password" name="password" id="password">
+         <input type="password" name="password" id="password" required>
       </section>
 
         <hr class="hr1">
@@ -54,17 +54,17 @@
       <section class="account-info">  
         
         <label for="personal">
-          <input type="radio" name="personal-business" id="personal" value="personal">
+          <input type="radio" name="personal-business" id="personal" value="personal" required>
           Personal Account
         </label>
 
         <label for="business">
-          <input type="radio" name="personal-business" id="business" value="business">
+          <input type="radio" name="personal-business" id="business" value="business" required>
           Business Account
         </label>
         
         <label for="accept">
-          <input type="checkbox" name="accept-terms" id="accept" value="accept">
+          <input type="checkbox" name="accept-terms" id="accept" value="accept" required>
           I accept the <span class="terms-and-conditions">terms and conditions</span>
         </label>
 
@@ -76,12 +76,12 @@
         <p>
           Upload a profile picture:
         </p>
-        <label for="file"><input id="file" type="file" name="file" ></label>
+        <label for="file"><input id="file" type="file" name="file" required></label>
         
         <p>
           Input your age (years):
         </p>
-        <label for="age"><input id="age" type="number" name="age" min="15" max="99"></label>
+        <label for="age"><input id="age" type="number" name="age" min="15" max="99" required></label>
         
         <p>
           How did you hear about us?

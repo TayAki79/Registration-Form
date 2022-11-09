@@ -36,6 +36,7 @@ p {
   padding: 0;
   background-color: black;
   height: 30px;
+  color: white;
 }
 
 .add-info input {
@@ -44,6 +45,7 @@ p {
   padding: 0;
   background-color: black;
   height: 30px;
+  color: white;
 }
 
 .add-info select {
@@ -56,6 +58,7 @@ p {
 
 .add-info textarea {
   background-color: black;
+  color: white;
 }
 
 .hr1 {
