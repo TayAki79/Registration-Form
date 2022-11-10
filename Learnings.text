@@ -1,0 +1,23 @@
+vh=viewport height
+100vh = 100% of the viewport
+viewport is the visible area of a webpage, thus the viewport on a desktop is bigger than the viewport on a phone or tablet
+
+method attribute in a form element describes how data will be sent to the destination url
+There are two methods: GET or POST
+
+rem unit = root em
+rem is relative to the font size of the html element
+
+type="password" = obscures (verhüllt) the password
+
+minlength="8" => requires at least 8 characters
+
+pattern="[a-z0-5]{8,}" => a regular expression with at least 8 characters consist of lowercase letters or the digits 0 - 5
+
+name attribute provides the possibility to identify the element we want to submit
+
+to spruce up = verschönern
+
+vw = viewport width
+
+last-of-type CSS pseudo class selects the last element of a certain element

@@ -61,6 +61,13 @@ p {
   color: white;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  cursor: pointer;
+}
 .hr1 {
   width: 500px;
   height: 3px;
